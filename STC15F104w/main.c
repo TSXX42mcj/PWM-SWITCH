@@ -1,7 +1,7 @@
 #include<reg51.h>
 
-sbit pwm1=P3^3;
-sbit pwm2=P3^2;
+sbit pwm1=P3^0;
+sbit pwm2=P3^1;
 
 sbit out1=P3^4;
 sbit out2=P3^5;
